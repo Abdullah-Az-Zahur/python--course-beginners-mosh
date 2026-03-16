@@ -1,4 +1,6 @@
-x = input("x: ")
-y = int(x) + 1
+temperature = 35
 
-print(f"x: {x}, y: {y}")
+if temperature > 30:
+    print("water is hot")
+
+print("done execution")
