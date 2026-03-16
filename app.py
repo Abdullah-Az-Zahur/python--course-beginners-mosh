@@ -1,5 +1,6 @@
+# pylint: disable=invalid-name
+
 age = 22
 
-message = "eligible" if age > 18 else "not eligible"
-
-print(message)
+if 18 <= age < 65:
+    print("eligible")
