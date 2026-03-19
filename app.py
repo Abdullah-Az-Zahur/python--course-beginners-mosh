@@ -1,9 +1,3 @@
-successful = False
-
-for number in range(3):
-    print("attempt")
-    if successful:
-        print("Successful")
-        break
-else:
-    print("Attempt 3 time")
+for x in range(5):
+    for y in range(3):
+        print(f"({x}, {y})")
