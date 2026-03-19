@@ -1,6 +1,9 @@
-# pylint: disable=invalid-name
+successful = False
 
-age = 22
-
-if 18 <= age < 65:
-    print("eligible")
+for number in range(3):
+    print("attempt")
+    if successful:
+        print("Successful")
+        break
+else:
+    print("Attempt 3 time")
