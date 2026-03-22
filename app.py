@@ -1,6 +1,5 @@
-def greet():
-    print("Hi there")
-    print("Welcome to abroad")
+def greet(firstName, lastName):
+    print(f"{firstName} {lastName}")
 
 
-greet()
+greet("Md.", "Abdullah")
