@@ -1,5 +1,8 @@
-def increment(number, by=1):
-    return number + by
+def multiply(*numbers):
+    total = 1
+    for number in numbers:
+        total *= number
+    return total
 
 
-print(increment(number=2, by=1))
+print(multiply(1, 3, 5, 6, 7, 8))
