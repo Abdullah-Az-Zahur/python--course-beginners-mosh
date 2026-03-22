@@ -1,6 +1,5 @@
-def greet(firstName, lastName):
-    print(f"Hi {firstName} {lastName}")
-    print("Welcome to abroad")
+def increment(number, by):
+    return number + by
 
 
-greet("Md.", "Abdullah")
+print(increment(number=2, by=1))
